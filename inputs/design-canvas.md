@@ -1,7 +1,8 @@
 # Design canvas (Claude Design)
 
 - **Link:** https://claude.ai/artifact/Kcm2c1ZwusPoCgjqXg1gyK
-- **At intake (2026-11-17):** version `1794918017-989c`, 45 files. Nik is still refining it, so this isn't a pin. Pins are saved only when Nik marks a version final (D-25).
+- **At intake (2026-11-17):** version `1794918017-989c`, 45 files.
+- **After the design-brief restructure (2026-11-22):** version `1795360630-01fe`. The canvas follows design-brief v1: `flows.md` sha256 `36bbe186…87e8`, and `elements.json` sha256 `63443569…ad3d` (valid against the brief's schema). Nik is still refining it, so this isn't a pin. Pins are saved only when Nik marks a version final (D-25).
 - **Design files aren't copied here** (skill decision 23). Stage 1 reads the canvas directly.
 
 | Page | Notes |
@@ -15,3 +16,14 @@
 | `_test/flows.md`, `_test/elements.json` | Format test from 2026-11-15; not real content, can be deleted |
 
 **Curated screenshots for GitHub** (G-17): when Nik marks a version final, the screens he picks are rendered from that pinned version to `docs/design/<version>/<screen-id>.png` and committed. These are screenshots, not design files. Each set is labeled with its version and is never edited, so it can't drift silently.
+
+## Restructured canvas (2026-11-22)
+
+| | |
+|---|---|
+| Current pages | `Workout Log Final` and `WL Elements`. The exploration page `Workout Log` is archived. |
+| `flows.md` | 8 flows (F1 Sign in, F2 Log a workout, F3 History, F4 Setup, F5 Today, F6 Sync, F7 Exercise with history, F8 Interactive prototype), 74 screen rows, 48 edge cases, 55 decisions (12 open) |
+| Status | Every flow is **In progress**. None has been marked Final yet. |
+| `elements.json` | 30 elements, all draft |
+| Tokens | All in `styles.css`. The color conflict is D-54, and the theme variants are D-55. |
+| Not in `flows.md` | Exploration picks left on the archived page: 38a/b/c or 38i/j, 38h, 38d, 37b/c |

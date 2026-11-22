@@ -52,3 +52,4 @@ Outcome: The project is **Superset**, at `~/Claude/Projects/Superset/`. The earl
 Source: intake question, reworded on 2026-11-22 to "existing material to read" (the stack isn't decided at intake; it's committed at the HLD).
 Nik: give more info to intake. First update the canvas structure with the UI/UX agent, get notes on what's finalized, and pull that in.
 Outcome: 2026-11-22. Nik pastes `design-brief` and then `adopt` into the design chat. When the canvas has `flows.md`, `elements.json`, and a Status table, intake records it (version, flows, and what's Final) and stage 1 starts with syncing PRD v3 to it. Notion "Workout 3" is the only other input. No stack commitment.
+Done 2026-11-22: the canvas was restructured (version `1795360630-01fe`); see `inputs/design-canvas.md`.
