@@ -25,3 +25,4 @@
 - 2026-11-22 · The design-brief and adopt prompts were sent to the design chat, and the canvas was restructured: flows.md (8 flows, 74 screens, 12 open decisions) and elements.json (30, valid). Intake done.
 - 2026-11-22 · Canvas renumbered to design-brief v2 (flow.subflow.screen plus names). Nik approved the mapping. 68 screens, Former IDs table.
 - 2026-11-22 · Stage 1: PRD v4 synced to the canvas (10 decisions, 4 questions). Option research started for sign-in and offline sync.
+- 2026-11-22 · design-sync first run (report only, PRD changes paused): check.py clean; 11 validator findings in `validation/design-sync/2026-11-22-1795362017-984f.md`.
