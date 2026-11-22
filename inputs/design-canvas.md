@@ -27,3 +27,9 @@
 | `elements.json` | 30 elements, all draft |
 | Tokens | All in `styles.css`. The color conflict is D-54, and the theme variants are D-55. |
 | Not in `flows.md` | Exploration picks left on the archived page: 38a/b/c or 38i/j, 38h, 38d, 37b/c |
+
+## Moved to design-brief v2 numbering (2026-11-22)
+
+Version `1795362017-984f`. Screens are numbered `flow.subflow.screen` with a name (`1.1.2 signin.code`). Nik approved the mapping. In numbers: 7 flows, 68 screens across 73 table rows (5 screens are shared between flows), and 48 edge cases (`EC-x.y-n`). Decisions stay D-01 to D-55. The prototype is now a page (`prototype.app`). A Former IDs table at the end of `flows.md` maps all 74 old IDs (5y2 → 1.1.2).
+Checked locally: every number has exactly one name and every name exactly one number. The canvas's `data-screen` values match `flows.md` exactly (68). `elements.json` is valid for v2. `flows.md` sha256 `a889a2d6…2d27`.
+Leftover: each screen's page anchor still uses its old ID (`#5k5`), so shared screens don't get duplicate anchors.
