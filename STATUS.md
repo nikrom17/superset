@@ -1,12 +1,12 @@
 # Superset · Status
 
-**Current stage:** 1 PRD shaping, not started.
-**Next action:** sync PRD v3 to `flows.md` (canvas `1795362017-984f`, brief v2 numbering) and the idea chat, then the first question batch.
+**Current stage:** 1 PRD shaping. Draft v4 is ready for review.
+**Next action:** Nik answers P-01 to P-10 and Q-1 to Q-4 in `prd.md`. The options briefs for P-01 (sign-in) and P-09 (offline sync) are being researched, into `research/`.
 
 | # | Stage | State | Output |
 |---|---|---|---|
 | 0 | Intake | Done | `intake.md`, `inputs/` |
-| 1 | PRD shaping and vetting | Not started | |
+| 1 | PRD shaping and vetting | v4 draft, in review | `prd.md` |
 | 1b | UI building blocks | Not started | |
 | 2 | Feasibility triage | Not started | |
 | 3 | POC runs | Not started | |
@@ -24,3 +24,4 @@
 - 2026-11-22 · Pushed to GitHub. D-02 decided: restructure the canvas with the design brief first, then pull it into intake.
 - 2026-11-22 · The design-brief and adopt prompts were sent to the design chat, and the canvas was restructured: flows.md (8 flows, 74 screens, 12 open decisions) and elements.json (30, valid). Intake done.
 - 2026-11-22 · Canvas renumbered to design-brief v2 (flow.subflow.screen plus names). Nik approved the mapping. 68 screens, Former IDs table.
+- 2026-11-22 · Stage 1: PRD v4 synced to the canvas (10 decisions, 4 questions). Option research started for sign-in and offline sync.
